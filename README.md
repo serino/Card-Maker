@@ -1,0 +1,1 @@
+This is a project that allows a greeting card with custom text, card color, text color, and font size.
