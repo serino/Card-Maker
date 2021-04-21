@@ -2,11 +2,14 @@ let square = document.getElementById("square");
 
 let textBox = document.getElementById("textBox");
 
+let backgroundColorPicker = document.getElementById("backgroundColorPicker");
+
 let fontSizeSlider = document.getElementById("fontSizeSlider");
 
-let paragraph = document.getElementById("paragraph");
-
 textBox.addEventListener("input", showText);
+
+backgroundColorPicker.addEventListener("input", customBackgroundColor);
+fontSizeSlider.addEventListener("input", customFontSize);
 
 function sayHappyBirthday() {
   square.innerText = "Happy Birthday!";
